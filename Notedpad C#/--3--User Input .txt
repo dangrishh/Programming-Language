@@ -1,0 +1,153 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string x;
+            char z;
+
+            Console.Write("Enter a Name: ");
+            x = Console.ReadLine();
+            Console.WriteLine();
+
+            Console.Write("Enter your Gender: ");
+            z = Console.ReadKey().KeyChar;  // no need to enter 
+                         // Or
+            z = (char) Console.Read(); // - need ienter
+
+            Console.WriteLine();
+
+
+            Console.WriteLine();
+            Console.WriteLine("Your Name is " + x);
+            Console.WriteLine("Your Gender is " + z);
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+
+-------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string name;
+            string location;
+            string education;
+
+            // or string name, location, education;
+
+            
+
+            Console.Write("Hi my name is ");
+            name = Console.ReadLine();
+
+            Console.Write("I'am From ");
+            location = Console.ReadLine();
+
+            Console.Write("I Study in ");
+            education = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine("Thank You, See You Soon and Goodbye");
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+----------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            char x;
+                
+            Console.WriteLine(" Press any Letter");
+            x = Console.ReadKey().KeyChar;    // ito ung rekta mona siya ilalagay no need na ienter
+
+            Console.WriteLine("\nYou Pressed: " + x);
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+----------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string name, location, education;
+
+            
+           Console.Write("Name      : ");
+           name = Console.ReadLine();
+
+           Console.Write("Location  : ");
+           location = Console.ReadLine();
+
+           Console.Write("Education : ");
+           education = Console.ReadLine();
+
+
+           Console.WriteLine();
+           Console.WriteLine("Hi my name is " + name);
+           Console.ReadKey();
+           Console.WriteLine("I'am from " + location);
+           Console.ReadKey();
+           Console.WriteLine("I study in " + education);
+           Console.ReadKey();
+
+           
+           Console.ReadKey();
+      
+        }
+    }
+}
+
+---------------------------------------------------
+

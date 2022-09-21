@@ -1,0 +1,15 @@
+           LOGIN FORM - C#    
+
+    {
+            string user, pass;
+            user = txtUser.Text;
+            pass = txtPass.Text;
+
+            if (user == "admin" && pass == "1234")
+            {
+                MessageBox.Show("successful");
+            }
+            else
+            {
+                MessageBox.Show("error");
+            }

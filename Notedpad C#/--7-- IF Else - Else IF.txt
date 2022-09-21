@@ -1,0 +1,134 @@
+Console.Write("Population : ");
+            int currentPopulation = Convert.ToInt32(Console.ReadLine());
+            int maxPopulation = 100;
+
+            if (currentPopulation <= maxPopulation)
+            {
+                Console.WriteLine(" Population Stable");
+
+            }
+            else
+            {
+
+                Console.WriteLine("Overpopulated");
+            }
+
+            Console.ReadKey();
+
+-----------------------------------------------------------------
+
+                 IF ELSE INT
+
+            Console.Write("Grade : ");
+            int grade = Convert.ToInt32(Console.ReadLine());
+
+            if (grade >= 96)
+            {
+                Console.WriteLine("Very Nice Nice");
+            }else if(grade >= 90)
+            {
+                Console.WriteLine("Very Nice");
+            }else if(grade >= 85)
+            {
+                Console.WriteLine("Moree power");
+            }else if(grade >= 74)
+            {
+                Console.WriteLine("Magsikap kapa at nakakaawa kanaman");
+            }
+            else
+            {
+                Console.WriteLine("magaral kanaman ng mabuti aba");
+                Console.WriteLine("at saka pasok pasok");
+            }
+                Console.ReadKey();
+
+----------------------------------------------------------------
+
+                   IF ELSE WITH BOOL ANG INT
+
+            Console.Write("Ilan taon kana? : ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            string Name = "";
+            bool isRegistered = true;
+
+            if(age >=18)
+            {
+
+                if (isRegistered)
+                {
+                        Console.WriteLine("You Can Vote!");
+                }
+                else
+                {
+                        Console.WriteLine("You Can Register as a Voter!");
+                        Console.WriteLine("Magregister kana");
+                        Console.WriteLine("Baka bayaran pa boto mo");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Access Denied");
+            }
+
+            Console.ReadKey(); // Dito pwede kapang magelse if larularuin molang
+
+-------------------------------------------------------------------
+
+                   IF ELSE WITH STRING
+
+            Console.Write("Password : ");
+            string pword = Console.ReadLine();
+
+            if /*(pword == "admin123") or */ (pword.Equals("admin123"))
+            {
+                Console.WriteLine("Login Successful");
+            }
+            else
+            {
+                Console.WriteLine("Access Denied");
+            }
+
+            Console.ReadKey();
+
+---------------------------------------------
+
+            Console.Write("User name : ");
+            string pword = Console.ReadLine();
+                                                          /* accepted the big letter */
+            if /*(pword == "DT") or */ (pword.Equals("DT",StringComparisonIgnoreCase))
+            {
+                Console.WriteLine("Login Successful");
+            }
+            else
+            {
+                Console.WriteLine("Access Denied");
+            }
+
+            Console.ReadKey();
+
+-------------------------------------------
+
+            Console.Write("Math     : ");
+            float math = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("Science  : ");
+            float science = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("English  : ");
+            float english = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("Computer : ");
+            float computer = Convert.ToSingle(Console.ReadLine());
+
+            float average = (math + science + english + computer) / 4;
+
+            Console.WriteLine();
+            Console.WriteLine("Average : " + average);
+
+            if (average > 100) Console.WriteLine("Invalid Grade!");
+            else if (average >= 98) Console.WriteLine("With Highest Honors");
+            else if (average >= 95) Console.WriteLine("With High Honors");
+            else if (average >= 90) Console.WriteLine("With Honors");
+            else if (average >= 75) Console.WriteLine("Passed");
+            else Console.WriteLine("Failed");

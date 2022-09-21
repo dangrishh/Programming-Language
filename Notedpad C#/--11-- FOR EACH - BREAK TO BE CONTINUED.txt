@@ -1,0 +1,94 @@
+---------------------- FOR EACH LOOP---------------------
+
+-----------------ginagamit lang sa list and then sa mga arrays-------
+
+			string[] names = {"David","Alenere","Dexter","spdt","david123","dexy"};
+			
+			for (int i = 0; i < names.Length; i++)
+			{
+				Console.WriteLine(names[i]);
+			}
+				
+			Console.WriteLine();
+
+	-------PAREHAS LANG NG  for loop-------------
+
+			foreach (string x in names) 
+
+			{
+				Console.WriteLine(x);
+			}
+			
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+------- while loop and for loop is a parehas pero mas compack ang for loop magkakasama.-------------\
+
+
+-------------------BREAK KEYWORD------------------
+
+			string[] names = {"David","Alenere","Dexter","spdt","david123","dexy"};
+						
+			foreach (string x in names) 
+			{
+				Console.WriteLine(x);
+				break;
+			}
+			
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+			
+			// OUTPUT  	David
+					 Alenere
+				 	Dexter
+					 spdt
+				 	david123
+					 dexy
+
+----------------- ANOTHER Examples
+
+	string[] capitals = { "Sofia", "Washington", "London", "Paris" };
+
+	foreach (string capital in capitals)
+	{
+
+		Console.WriteLine(capital);
+
+	}
+
+	// OUTPUT   Sofia
+		 Washington 
+		London 
+		Paris
+-----------------
+
+
+
+----------------------CONDITIONS IN FOR-EACH LOOP-------------------------------
+
+	--------- ARray of Integers Summation------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

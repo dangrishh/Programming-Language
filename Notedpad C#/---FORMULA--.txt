@@ -1,0 +1,17 @@
+
+       CONVERSION METHODS
+
+int math = Convert.ToInt32(Console.ReadLine());
+
+float math = Convert.ToSingle(Console.ReadLine());
+
+Double math = Convert.ToDouble(Console.ReadLine());
+
+long math = Convert.ToInt64(Console.ReadLine());
+
+string math = Convert.ToString(Console.ReadLine());
+
+------------------------------------------------------
+-----CAPSLOCK-------
+string txt = "Hello World";
+Console.WriteLine(txt.ToUpper());

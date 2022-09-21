@@ -1,0 +1,168 @@
+-----------------WHILE LOOP-------------------------
+
+
+int i = 0;
+while (i < 5)
+{
+	Console.WriteLine(i);
+	i++;
+}
+			
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+ 
+-------------------------------------------------------------------------------
+
+ito binibilang niya --------------------------
+
+int i = 0;
+string[] names = {"David","Alenere","Jasfer","Ace","Patrick"};
+			
+while (i < 5)
+{
+	Console.WriteLine(names[i]);
+	i++;
+}
+			
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+shortcut numbering ---------------------
+
+string[] names = {"David","Alenere","Jasfer","Ace","Patrick"};
+Console.WriteLine(names.Length);
+			
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+--------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------Combine na bilang sa words at numbering 
+
+int i = 0;
+string[] names = {"David","Alenere","Jasfer","Ace","Patrick","Daniel","Emman","Ricardo"};
+			
+while (i < names.Length)
+{
+	Console.WriteLine(names[i]);
+	i++;
+}
+			
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+
+-------------------DO WHILE LOOP----------------------
+
+gagawin nya muna bago niya iloop
+
+int j = 5;
+			
+do {
+	Console.WriteLine(j);
+	j++;
+} while (j < 5);
+			
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+------------------ BREAK Keyword-------------------
+
+pangpahinto at sa name
+
+int i = 0;
+			
+			
+while (i < 5)
+{
+	Console.WriteLine(i);
+	i++;
+	break;
+}
+			
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+name-----------------
+
+int i = 0;
+string[] names = {"David","Alenere","Jasfer","Ace","Patrick"};
+					
+while (i < 5)
+{
+	Console.WriteLine(names[i]);
+	i++;
+	break;
+}
+					
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+
+---------CONDITION IN WHILE LOOP-------------------
+
+int i = 0;
+string[] names = {"David","Alenere","Jasfer","Ace","Patrick"};
+					
+while (i < 5)
+{
+	if (names[i].Equals("David")) 
+{
+	Console.WriteLine("We Found " + names[i]);
+	i++;
+}	break;
+
+else Console.WriteLine(names[i]);
+			
+	i++;
+			
+}
+					
+Console.WriteLine();
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+
+
+--------------QUIZ GAMES--------------------
+
+
+		int lives = 3;
+		
+		string correctAnswer = "Jupiter";
+		string answer;
+		
+		while (lives > 0) 
+		{
+			Console.WriteLine("Life : " + lives);
+			Console.WriteLine("What is The Largest Planet In Our Solar System?");
+			Console.WriteLine();
+			Console.Write("Answer: ");
+			answer = Console.ReadLine();
+			
+			if (answer.Equals(correctAnswer))
+			{
+				Console.WriteLine();
+				Console.WriteLine("YOU WON");
+				break;
+			}
+			else lives--;
+			
+			if (lives ==0) 
+				
+				Console.WriteLine();
+				Console.WriteLine("YOU LOST");
+			
+			Console.WriteLine();
+			Console.WriteLine();
+		}
+					
+		Console.WriteLine();
+		Console.Write("Press any key to continue . . . ");
+		Console.ReadKey(true);

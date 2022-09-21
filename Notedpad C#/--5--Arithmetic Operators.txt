@@ -1,0 +1,128 @@
+
+        {
+
+            int x = 5;
+            int y = 10;
+
+            Console.WriteLine(x + y);
+
+            Console.ReadKey();
+
+        }
+----------------------------------------------
+
+            int x = 5;
+            int y = 10;
+
+            int sum = x + y;
+            int diff = x - y;
+            int prod = x * y;
+            int quo = x / y;
+            int remainder = x & y;
+
+            Console.WriteLine("Sum        : " + sum);
+            Console.WriteLine("Difference : " + diff);
+            Console.WriteLine("Product    : " + prod);
+            Console.WriteLine("Quotient   : " + quo);
+            Console.WriteLine("Remainder  : " + remainder);
+
+            Console.ReadKey();
+        }
+--------------------------------------------------
+{
+
+            float x = 5.25f;
+            float y = 2.35f;
+
+            float sum = x + y;
+
+            Console.WriteLine("Sum        : " + sum);
+            
+            Console.ReadKey();
+
+        }
+---------------------------------------------
+        {
+
+            float x = 5.25f;
+            float y = 2.35f; // increment at decrement
+
+            float sum = x + y;
+
+            Console.WriteLine("Sum        : " + sum);
+            
+            Console.ReadKey();
+
+        }
+-----------------------------------------------
+{
+
+            float x = 5;
+            fload y = 10:
+
+            float mid = (num1 + num2) / 2;
+
+            Console.WriteLine(mid);
+
+            Console.ReadKey();
+
+        }
+   ----------------------------------
+
+            int x = 5;
+
+            x++;
+            x++;
+            x--;
+
+            Console.Write(x);
+
+            Console.ReadKey();
+-------------------------------------------
+            int num1 = 5;
+            int num2 = 10;
+
+            // num2 = num2 + num1; 
+            num2 += num1;
+
+            Console.WriteLine(num2);
+
+            Console.ReadKey();
+----------------------------------------
+
+            Console.Write("Math      : ");
+            float math = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("Science   : ");
+            float science = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("English   : ");
+            float english = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("ICT       : ");
+            float ict = Convert.ToSingle(Console.ReadLine());
+
+            Console.WriteLine();
+
+            float average = (math + science + english + ict) / 4;
+            Console.Write("Average       : " + average);
+
+            Console.ReadKey();
+
+
+
+
+-------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

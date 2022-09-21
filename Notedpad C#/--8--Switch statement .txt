@@ -1,0 +1,211 @@
+       char grade = 'B';
+
+       switch (grade)
+       {
+           case 'A':
+               Console.WriteLine("Outstandng");
+               break;
+           case 'B':
+               Console.WriteLine("Excellent");
+               break;
+           case 'C':
+               Console.WriteLine("Satisfactory");
+               break;
+           case 'D':
+               Console.WriteLine("Good");
+               break;
+           case 'E':
+               Console.WriteLine("Neeeds Improvement");
+               break;
+           case 'F':
+               Console.WriteLine("Failed");
+               break;
+           default:
+               Console.WriteLine("manati sa A hanggang F");
+               break;
+
+               Console.Read();
+
+
+------------------------------------------------
+            Console.WriteLine("Enter a Letter : ");
+
+            char grade = (char)Console.Read();
+
+            switch (grade)
+            {
+                case 'A':
+                    Console.Write("Outstandng");
+                    break;
+                case 'B':
+                    Console.Write("Excellent");
+                    break;
+                case 'C':
+                    Console.Write("Satisfactory");
+                    break;
+                case 'D':
+                    Console.Write("Good");
+                    break;
+                case 'E':
+                    Console.Write("Neeeds Improvement");
+                    break;
+                case 'F':
+                    Console.Write("Failed");
+                    break;
+                default:
+                    Console.Write("Invalid Denied");
+                    break;
+                    Console.ReadKey();
+ 
+---------------------------------------------------------------
+            Console.WriteLine(" Enter a Letter : ");
+
+
+            char grade = (char) Console.Read();
+
+
+            switch (grade)
+            {
+                case 'A':
+                    Console.WriteLine("Outstandng");
+                    break;
+                case 'B':
+                    Console.WriteLine("Excellent");
+                    break;
+                case 'C':
+                    Console.WriteLine("Satisfactory");
+                    break;
+                case 'D':
+                    Console.WriteLine("Good");
+                    break;
+                case 'E':
+                    Console.WriteLine("Neeeds Improvement");
+                    break;
+                case 'F':
+                    Console.WriteLine("Failed");
+                    break;
+
+                    Console.Read();
+
+---------------------------------------------------------
+            Console.Write("Number Word : ");
+            string numberWord = Console.Read();
+
+            switch (numberWord)
+            {
+                case "one":
+                    Console.WriteLine(1);
+                    break;
+                case "two":
+                    Console.WriteLine(2);
+                    break;
+                case "three":
+                    Console.WriteLine(3);
+                    break;
+                case "four":
+                    Console.WriteLine(4);
+                    break;
+                case "five":
+                    Console.WriteLine(5);
+                    break;
+                default:
+                    Console.WriteLine("Manatili sa kinalalagyan sa 1 to 5");
+                    break;
+
+                    Console.Read();
+------------------------------------------------------------------
+
+            Console.Write("Month : ");
+            int month = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Day : ");
+            int day = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Year : ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            string monthWord;
+
+            switch (month)
+            {
+                case 1:
+                    monthWord = "January";
+                    break;
+                case 2:
+                    monthWord = "January";
+                    break;
+                case 3:
+                    monthWord = "February";
+                    break;
+                case 4:
+                    monthWord = "March";
+                    break;
+                case 5:
+                    monthWord = "April";
+                    break;
+                case 6:
+                    monthWord = "May";
+                    break;
+                case 7:
+                    monthWord = "June";
+                    break;
+                case 8:
+                    monthWord = "July";
+                    break;
+                case 9:
+                    monthWord = "Augost";
+                    break;
+                case 10:
+                    monthWord = "September";
+                    break;
+                case 11:
+                    monthWord = "November";
+                    break;
+                case 12:
+                    monthWord = "December";
+                    break;
+                default:
+                    monthWord = "";
+                    Console.WriteLine("Invalid Month Input");
+                    break;
+
+            }
+
+            if (day >= 1 && day <= 31)
+            {
+                if (monthWord != "") Console.WriteLine(monthWord + " " + day + "," + year);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Day, Day is only up to 31..");
+            }
+
+            Console.Read();
+
+-----------------------------------------------------------------------------------------
+
+                case "Schedule":
+                    Console.WriteLine();
+                    Console.WriteLine("Bible Research             Public Speaking             Classroom Management            Elective Class           Early Childhood / Child Psychology");
+                    Console.WriteLine();
+                    Console.WriteLine("9:00am - 10:30am          10:30am - 12:00nn               1:00pm - 2:30pm              2:30pm - 3:30pm                  3:30pm - 5:00pm    ");
+                    Console.WriteLine(" ( S. Luz Cruz )         ( B.Gilbert Fruel )          ( S. Marites Doloricon )        ( Guest Presenter )              ( S. Ishie Damiao )    ");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    break;
+                case "Time":
+                    Console.WriteLine("                                                                          BREAK TIME ");
+                    Console.WriteLine("                                                                        12:00nn - 1:00pm");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    break;
+                default:
+                    Console.WriteLine("Ilagay mo ang dapat ilagay!");
+                    Console.WriteLine();
+                    break;
+
+                    Console.ReadLine();
+            }
+
+------------------------------------------------------------
+                    

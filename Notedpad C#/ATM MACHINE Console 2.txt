@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATM
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.Title = "ATM MACHINE";
+
+            int tries = 3;
+
+            double balance = 5000.00;
+            int pin = 1514;
+
+            while(tries != 0)
+            {
+                Console.WriteLine("Enter your pin: ");
+                int pinn = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine();
+                
+               if (pinn == pin)
+               {
+                   Console.WriteLine("Enter the transaction type you wish to perform\nD: Deposit \nW: Withdrawal");
+                   string transType = Console.ReadLine();
+
+                   if (transType.Equals("D") || transType.Equals("d"))
+                   {
+                       Console.WriteLine("Enter the amount you want to deposit");
+                       double amnt = Convert.ToDouble(Console.ReadLine());
+
+                       double finalBal = Deposit(balance, amnt);
+
+                       Console.WriteLine("\nYour transaction was successfull.\nYour Balance is R" + finalBal);
+                   }
+                   else if (transType.Equals("W") || transType.Equals("w"))
+                   {
+                       Console.WriteLine("Enter the amount you want withdraw");
+                       double amnt = Convert.ToDouble(Console.ReadLine());
+
+                       double finalBal = Withdraw(balance, amnt);
+                       
+                       Console.WriteLine("\nYour transaction was successfull.\nYour balance is R" + finalBal);
+                   }        
+                   else
+                   {
+                       Console.WriteLine("Invalid transaction type");
+                   }
+                   break; //== Loop
+               
+               }
+               else
+               {
+                   tries--;
+
+                   if (tries > 0)
+                   {
+                       Console.WriteLine("Incorrect pin \n\nTry again");
+                       Console.WriteLine();
+                   }
+                   else if(tries == 0)
+                   {
+                       Console.WriteLine("Incorrect pin \n\nCard blocked!!");
+                       Console.WriteLine();
+                   }
+
+                   // tries = tries - 1
+
+               }
+            }
+
+                Console.ReadKey();
+        }
+
+        public static double Deposit(double balance, double amount)
+        {
+            return balance + amount; //== Return the sum
+        }
+
+        public static double Withdraw(double balance, double amount)
+        {
+            return balance - amount; //== return the difference
+        }
+    }
+}

@@ -1,0 +1,283 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int mylnt = 9;
+            double myDouble = mylnt;
+
+            Console.WriteLine(myDouble);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char myChar = 'B';
+            char asciiCode = myChar; // or int for numbering
+
+            Console.WriteLine(asciiCode);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+
+-----------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char myChar = 'B';
+            int asciiCode = myChar;
+
+            Console.WriteLine(myChar);
+            Console.WriteLine(asciiCode);
+
+            Console.ReadKey();
+
+        }
+    }
+}
+----------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int asciiCode = 30; 
+            char myChar = (char)asciiCode; // ito pagniclick mo may mga pangdesign.
+            
+            Console.WriteLine(myChar);
+
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+-----------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double myDouble = 236.75;
+            int x = (int)myDouble;
+
+            Console.WriteLine(x);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+---------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float myDouble = 25.32f; // ito naman ay lahat
+            int mylnt = (int)myDouble; // ito 2 decimal lang nakukuha niya
+            
+            Console.WriteLine(myDouble);
+
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+------------------------------------------------
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 10;
+            int num2 = 30;
+
+            Console.WriteLine(num1 + num2);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+-----------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string x = "5";
+            string y = "10";
+
+            int num1 = Convert.ToInt32(x);
+            int num2 = Convert.ToInt32(y);
+
+            Console.WriteLine(x + y);
+            Console.WriteLine(num1 + num2);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string x = "5.12";
+            string y = "10.25";
+
+            float num1 = Convert.ToSingle(x);
+            float num2 = Convert.ToSingle(y);
+
+            Console.WriteLine(x + y);
+            Console.WriteLine(num1 + num2);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+-----------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string x = Console.ReadLine();
+            string y = Console.ReadLine();
+
+            double num1 = Convert.ToSingle(x);
+            double num2 = Convert.ToSingle(y);
+
+            Console.WriteLine(x + y);
+            Console.WriteLine(num1 + num2);
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x = Convert.ToDouble(Console.ReadLine());
+            double y = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(x + y); // dito rekta na siya
+            
+
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
+--------------------------------------------
+
+

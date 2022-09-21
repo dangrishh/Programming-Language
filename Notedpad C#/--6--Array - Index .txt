@@ -1,0 +1,114 @@
+        
+    string[] names = { "David", "Alenere", "Slear", "Ace", "Patrick" };
+
+    Console.Write("Sino Crush mo?   : ");
+    Console.WriteLine(names[0]);
+
+    int[] numbers = new int[10];
+    float[] grades = new float[25];
+
+----------------------------------------------------------
+
+            int[] numbers = new int[10];
+            numbers[0] = 5;
+            numbers[3] = 15;
+
+            Console.WriteLine(numbers[0] - numbers[3]);
+
+---------------------------------------------------------
+
+            string[] names = new string[3];
+
+            Console.Write("Enter Name : ");
+            names[0] = Console.ReadLine();
+
+            Console.WriteLine(" Ikaw Si " + names[0]);
+
+            Console.ReadKey();
+
+-------------------------------------------------------
+
+            float[] grades = new float[3];
+
+            grades[2] = Convert.ToSingle(Console.ReadLine());
+
+            Console.WriteLine("English  : " + grades[2]);
+
+
+---------------------------------------------
+
+----------SHORT WITH TECHINIQUE-------------
+
+            int index = 2;
+            string[] names = { "David", "Alenere", "Slear" };
+
+            Console.WriteLine(names[index]);
+
+            Console.ReadKey();
+
+
+---------------------------------------------
+
+            string[] email = { "danieldetorres30gmail.com", "Alenere@gmail.com", "Slear@gmail.com" };
+            
+            string[] username = { "DanielD.T", "AlenereDT", "SlearDT" };
+
+            string[] password = { "DT", "AlenereSTore", "SlearMall" };
+
+            Console.Write("Index   : ");
+
+            int index = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Email     : " + email[index]);
+            Console.WriteLine("Username  : " + username[index]);
+            Console.WriteLine("Password  : " + password[index]);
+
+            Console.ReadKey();
+
+-------------------------------------------------------------------------------------------------------
+
+			int[] array = { 1, 2, 3, 4, 5 }; // Reverse
+														// Get array size
+			int length = array.Length;
+														// Declare and create the reversed array
+			int[] reversed = new int[length];
+														// Initialize the reversed array
+			for (int index = 0; index < length; index++)
+			{
+				reversed[length - index - 1] = array[index];
+			}
+														// Print the reversed array
+			for (int index = 0; index < length; index++)
+			{
+				Console.Write(reversed[index] + " ");
+			}
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+--------------------------------
+
+---------REVERSE
+
+			int[] array = new int[] { 1, 2, 3, 4, 5 };
+			Console.Write("Reversed: ");
+			for (int index = array.Length - 1; index >= 0; index--)
+			{
+			
+				Console.Write(array[index] + " ");
+			
+			}
+			// Reversed: 5 4 3 2 1
+			Console.WriteLine();
+			Console.WriteLine("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+
+
+
+
+
+
+
+

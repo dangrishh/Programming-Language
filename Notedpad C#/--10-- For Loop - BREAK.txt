@@ -1,0 +1,137 @@
+----------------For Loop / BREAK-----------------------		
+		
+------------------------====-------------===---------=-----BINIBILANG NIYA UNG WORD THEN TEXT
+
+			string[] names = {"David","Alenere","Jasfer","Daniel","Pwisto","DT","Ace","Patrick"};
+			
+			for (int i = 0; i < names.Length; i++ )
+			{
+				Console.WriteLine(names[i]);
+			}
+		
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------REVERSE
+
+			string[] names = {"David","Alenere","Jasfer","Daniel","Pwisto","DT","Ace","Patrick"};
+			
+			for (int i = names.Length - 1; i >=0; i--)
+			{
+				Console.WriteLine(names[i]);
+			}
+		
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+------------------------------------BREAK KEYWORD----------------------------------------------
+
+			string[] names = {"David","Alenere","Jasfer","Daniel","Pwisto","DT","Ace","Patrick"};
+			
+			for (int i = 0; i < names.Length; i++ )
+			{
+				Console.WriteLine(names[i]);
+				break;
+			}
+		
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+-------------------------
+
+			string[] names = {"David","Alenere","Jasfer","Daniel","Pwisto","DT","Ace","Patrick"};
+			
+			for (int i = 0; i < names.Length; i++ )
+			{
+				if (names[i].Equals("DT"))
+				{
+					Console.WriteLine("We Found " + names[i]);
+					break;
+				}
+				else Console.WriteLine(names[i]);
+			}
+		
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+
+----------------------------------------- QUIZ GAME-------------------------------------------------
+
+			string[] username = {"David","Alenere","Dexter"};
+			string[] password = {"spdt","david123","dexy"};
+			
+			Console.Write("Username: ");
+			string authUsername = Console.ReadLine();
+			
+			Console.Write("Password: ");
+			string authPassword = Console.ReadLine();
+			
+			bool isFound = false;
+			
+			for ( int i = 0; i < username.Length; i++)
+			{
+				if ( authUsername.Equals(username[i]) && authPassword.Equals(password[i]))
+				{
+					isFound = true;
+					Console.WriteLine("Welcome, " + username[i]);
+					break;
+				}
+				
+			}
+			if (!isFound) Console.WriteLine("Account Not Found!");
+			
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+--------------------------
+
+------REVERSE for loop and Array
+
+			int[] array = new int[] { 1, 2, 3, 4, 5 };
+			Console.Write("Reversed: ");
+			for (int index = array.Length - 1; index >= 0; index--)
+			{
+			
+				Console.Write(array[index] + " ");
+			
+			}
+			// Reversed: 5 4 3 2 1
+			Console.WriteLine();
+			Console.WriteLine("Press any key to continue . . . ");
+			Console.ReadKey(true);
+
+
+
+-----------AGAIN
+
+			int[] array = { 1, 2, 3, 4, 5 }; // Reverse
+														// Get array size
+			int length = array.Length;
+														// Declare and create the reversed array
+			int[] reversed = new int[length];
+														// Initialize the reversed array
+			for (int index = 0; index < length; index++)
+			{
+				reversed[length - index - 1] = array[index];
+			}
+														// Print the reversed array
+			for (int index = 0; index < length; index++)
+			{
+				Console.Write(reversed[index] + " ");
+			}
+			Console.WriteLine();
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+

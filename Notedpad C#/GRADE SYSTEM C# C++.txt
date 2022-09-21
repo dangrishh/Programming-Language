@@ -1,0 +1,72 @@
+                  GRADE SYSTEM
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	float english,math,science,tle,elective,ap,computer,filipino;
+	float average;
+	
+	cout << "Enter English Grade:  ";
+	cin >> english;
+	
+	cout << "Enter Math Grade:     ";
+	cin >> math;
+	
+	cout << "Enter Science Grade:  ";
+	cin >> science;
+	
+	cout << "Enter TLE Grade:      ";
+	cin >> tle;
+	
+	cout << "Enter Elective Grade: ";
+	cin >> elective;
+	 
+	cout << "Enter AP Grade:       ";
+	cin >> ap;
+	
+	cout << "Enter Computer Grade: ";
+	cin >> computer;
+	
+	cout << "Enter Filipino Grade: ";
+	cin >> filipino;
+	
+	cout << endl;
+	average = (english + math + science + tle + elective + ap + computer + filipino) / 8;
+	cout << "Final Average: " << average;
+	cout << endl;
+	
+	if( average > 100) cout << "Invalid Grade";
+	else if ( average >= 98) cout << "With Highest Honor";
+	else if ( average >= 95) cout << "With High Honors";
+	else if ( average >= 90) cout << "With Honor";
+	else if ( average >= 75) cout << "Passed";	
+	else cout << "Failed";
+
+
+---------------------------------------------------------------------
+
+            Console.Write("Math      : ");
+            float math = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("Science   : ");
+            float science = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("English   : ");
+            float english = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("ICT       : ");
+            float ict = Convert.ToSingle(Console.ReadLine());
+
+            Console.WriteLine();
+
+            float average = (math + science + english + ict) / 4;
+            Console.Write("Average       : " + average);
+
+            Console.ReadKey();
+
+}

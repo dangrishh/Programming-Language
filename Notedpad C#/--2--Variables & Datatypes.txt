@@ -1,0 +1,89 @@
+Datatypes
+
+
+char sex = 'M';
+string name = "Daniel";
+int age = 18;
+bool isTall = false;
+float average = 92.5f;
+double grade = 92.5;
+
+---------------------
+
+         string name1 = "Daniel",
+             name2 = "Daniel",
+             name3 = "Daniel",
+             name4 = "Daniel",
+
+----------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string name = "Daniel";
+            int age = 18;
+            Console.Write("My Name is ");
+            Console.WriteLine(name);
+            Console.Write(" And My Age is ");
+            Console.Write(age);
+
+            Console.ReadKey();
+   
+
+        
+        }
+    }
+}
+
+------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string name = "Daniel D.T";
+            int age = 18;
+            float average = 2.25f;
+            char sex = 'M';
+
+            Console.WriteLine("My Name is " + name);
+            Console.WriteLine("I'am " + age + " Years Old.");
+            Console.WriteLine("My GPA is " + average);
+            Console.WriteLine("My sex is " + sex);
+
+            Console.ReadKey();
+
+            /*
+                ---OUTPUT ----
+               My Name is Daniel D.T
+               I'am 18 Years Old.
+               My GPA is 2.25
+               My sex is M 
+             */
+
+
+   
+
+        
+        }
+    }
+}
