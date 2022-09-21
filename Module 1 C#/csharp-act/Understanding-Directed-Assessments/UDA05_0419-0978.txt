@@ -1,0 +1,44 @@
+using System;
+
+namespace StudentInfo {
+    class Program {
+        public static void Main(string[] args) {
+        
+            string studentnum, name, college, course, section, schooltype, jshschool, shschool, plan;
+ 
+            Console.WriteLine("Enter your fullname: "); 
+			name = Console.ReadLine();
+			Console.WriteLine("Enter your student number: "); 
+			studentnum = Console.ReadLine();
+            Console.WriteLine("Enter your college: "); 
+			college = Console.ReadLine();
+            Console.WriteLine("Enter your Program / Course: "); 
+			course = Console.ReadLine();
+            Console.WriteLine("Enter your section: "); 
+			section = Console.ReadLine();
+            Console.WriteLine("Enter type of High School Graduate from (Private/Public): "); 
+			schooltype = Console.ReadLine();
+            Console.WriteLine("Enter your school name (Junior High School): "); 
+			jshschool = Console.ReadLine();
+            Console.WriteLine("Enter your school where you graduated (Senior High School): "); 
+			shschool = Console.ReadLine();
+            Console.WriteLine("Enter your plan after completing the course: "); 
+			plan = Console.ReadLine();
+            Console.Write("\n");
+          
+            Console.WriteLine("************************STUDENT INFORMATION****************************");
+            Console.WriteLine("Student number: {0} \t Fullname: {1}",studentnum,name);
+            Console.WriteLine("College: {0}",college);
+            Console.WriteLine("Program / Course: {0} ",course);
+            Console.WriteLine("Section: {0} \t\t Type of High School Graduated from: {1}",section,schooltype);
+            Console.WriteLine("Name of High School Graduate from: {0} ",jshschool);
+            Console.WriteLine("School graduated: {0}",shschool);
+            Console.WriteLine("Plan after completion of the Program / Course: {0}",plan);
+            Console.WriteLine("***********************************************************************");
+            
+            Console.ReadLine();
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey(true);
+        }
+    }
+}

@@ -1,0 +1,46 @@
+using System;
+
+namespace PersonalInfo {
+    class Program {
+        public static void Main(string[] args) {
+        
+            string name, birthdate, birthplace, sex, civilstat, addr, schoolgrad, strand;
+            int age, genavg;
+ 
+            Console.WriteLine("Enter your name (Last name, First name, Middle name): "); 
+			name = Console.ReadLine();
+			Console.WriteLine("Enter your age: "); 
+			age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter birth date (Month / Day / Year): "); 
+			birthdate = Console.ReadLine();
+            Console.WriteLine("Enter your birthplace: "); 
+			birthplace = Console.ReadLine();
+            Console.WriteLine("Enter your sex (Male / Female): "); 
+			sex = Console.ReadLine();
+            Console.WriteLine("Enter your civil status (Single / Married): "); 
+			civilstat = Console.ReadLine();
+            Console.WriteLine("Enter your home address: "); 
+			addr = Console.ReadLine();
+            Console.WriteLine("Enter your school where you graduated: "); 
+			schoolgrad = Console.ReadLine();
+            Console.WriteLine("Enter your strand (e.g., ICT, if applicable): "); 
+			strand = Console.ReadLine();
+            Console.WriteLine("Enter your general weighted average: "); 
+			genavg = int.Parse(Console.ReadLine());
+            Console.Write("\n");
+          
+            Console.WriteLine("************************PERSONAL INFORMATION****************************");
+            Console.WriteLine("Name: {0} \t\t Bithplace: {1}",name,birthplace);
+            Console.WriteLine("Birth date: {0} \t\t Age: {1}",birthdate,age);
+            Console.WriteLine("Sex: {0} \t\t\t\t Civil Status: {1} ",sex,civilstat);
+            Console.WriteLine("Home Address: {0} ",addr);
+            Console.WriteLine("School Graduated: {0} ",schoolgrad);
+            Console.WriteLine("Strand: {0} \t\t\t\t General Average: {1}",strand,genavg);
+            Console.WriteLine("************************************************************************");
+            
+            Console.ReadLine();
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey(true);
+        }
+    }
+}

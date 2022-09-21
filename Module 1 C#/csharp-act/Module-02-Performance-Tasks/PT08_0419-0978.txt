@@ -1,0 +1,30 @@
+using System;
+namespace DigitExtract
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			int num, digit1, digit2, digit3, digit4, digit5, digit6;
+
+			Console.WriteLine("Enter six-digit number: ");
+
+			num = int.Parse(Console.ReadLine());
+			digit6 = num % 10;   
+			num = num / 10;
+			digit5 = num % 10;   
+			num = num / 10;    
+			digit4 = num % 10;   
+			num = num / 10;    
+			digit3 = num % 10;   
+			num = num / 10;    
+			digit2 = num % 10;  
+			num = num / 10;
+			digit1 = num % 10;			
+			Console.WriteLine("Digits (from left to right) --> d1={0}, d2={1}, d3={2}, d4={3}, d5={4}, d6={5}",digit1,digit2,digit3,digit4,digit5,digit6);
+			Console.Write("Press any key to continue . . . ");
+
+			Console.ReadKey(true);
+		}
+	}
+}

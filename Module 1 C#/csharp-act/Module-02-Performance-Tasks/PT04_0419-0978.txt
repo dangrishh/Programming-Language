@@ -1,0 +1,30 @@
+
+using System;
+
+namespace LabExer4
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            int myNum = 5;               // Integer (whole number)
+            float myFloatNum = 1.00F;    // FLoating point number
+            double myDoubleNum = 5.99D;  // Floating point number
+            char myLetter = 'D';         // Character
+            bool myBool = true;          // Boolean
+            string myText = "C# Programming is cool.";     // String
+
+			Console.Write("-----------------------\n");
+			Console.WriteLine("Int: {0}",myNum);
+			Console.WriteLine("Float: {0:F2}",myFloatNum);
+			Console.WriteLine("Double: {0}",myDoubleNum);
+			Console.WriteLine("Char: {0}",myLetter);
+			Console.WriteLine("Bool: {0}",myBool);
+			Console.WriteLine("String: {0}",myText);
+			Console.Write("-----------------------\n");
+
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey(true);
+        }
+    }
+}

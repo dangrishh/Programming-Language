@@ -1,0 +1,191 @@
+using System;
+
+namespace StudentGrade
+
+{
+
+	class Program
+
+	{
+
+		public static void Main(string[] args)
+
+		{
+
+			string name,surname,midname;
+
+			
+
+			Console.Write("Enter firstname: ");
+
+			name = Console.ReadLine();
+
+			Console.Write("Enter surname: ");
+
+			surname = Console.ReadLine();
+
+			Console.Write("Enter middlename: ");
+
+			midname = Console.ReadLine();
+
+			
+
+			Console.WriteLine("\n");
+
+			
+
+			Console.WriteLine("=============MIDTERM PERIOD=============");
+
+			Console.Write("Enter quiz-1 score: ");
+
+			float q1=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter quiz-2 score: ");
+
+			float	q2=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter class standing score: ");
+
+			float	css=float.Parse(Console.ReadLine());
+
+			Console.Write("Midterm Lecture grade is: ");//auto-compute
+
+			float	mlec=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter Exam grade: ");
+
+			float	me=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter Midterm lab grade: ");
+
+			float	mlab=float.Parse(Console.ReadLine());
+
+			Console.WriteLine("=========================================");
+
+			
+
+			Console.WriteLine("\n");
+
+			
+
+			Console.WriteLine("===============FINAL PERIOD==============");
+
+			Console.Write("Enter quiz-1 score: ");
+
+			float fq1=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter quiz-2 score: ");
+
+			float	fq2=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter class standing score: ");
+
+			float	fcss=float.Parse(Console.ReadLine());
+
+			Console.Write("Final Lecture grade is: ");//auto-compute
+
+			float	flec=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter Exam grade: ");
+
+			float	fe=float.Parse(Console.ReadLine());
+
+			Console.Write("Enter Final lab grade: ");
+
+			float	flab=float.Parse(Console.ReadLine());
+
+			Console.WriteLine("=========================================");
+
+			
+
+			Console.WriteLine("\n");
+
+			
+
+			//midterm lecture
+
+			float	ave = (q1+q2)/2;
+
+			float mll = ((ave * 40)/100)+((css * 10)/100)+((me * 50)/100);
+
+			//midgrade
+
+			float midgrade = (((mll * 50)/100)+((mlab * 50)/100));
+
+			
+
+			//final lecture
+
+			float fave = (fq1 + fq2)/2;
+
+			float fll = ((fave * 40)/100)+((fcss * 10)/100)+((fe * 50)/100);
+
+			//final grade
+
+			float finalgrade = ((fll * 50)/100)+((flab * 50)/100);
+
+			
+
+			//ratings
+
+			float rate = ((midgrade * 50)/100)+((finalgrade * 50)/100);
+
+			
+
+			//mid output
+
+			Console.WriteLine("===============GRADE SHEET===============");
+
+			Console.WriteLine("NAME\t\t{0}\t{1}\t{2}",surname,name,midname);
+
+			Console.WriteLine("COURSE\t\tBachelor of Science Information Technology");
+
+			Console.WriteLine("PERIOD\t\tLECTURE\tLABORATORY\tGRADE");
+
+			Console.WriteLine("MIDTERM\t\t{0}\t{1}\t\t{2}",mll,mlab,midgrade);
+
+			
+
+			//final output
+
+			Console.WriteLine("FINAL\t\t{0}\t{1}\t\t{2}",fll,flab,finalgrade);
+
+			
+
+			//rating output
+
+			Console.Write("RATING\t\t{0}\t",rate);
+
+			if (rate >= 75) 
+
+			{
+
+				Console.WriteLine("REMARKS\t\tPASSED");
+
+			}
+
+			else
+
+			{
+
+				Console.WriteLine("REMARKS\t\tFAILED");
+
+			}
+
+			Console.Read();
+
+			
+
+			// TODO: Implement Functionality Here
+
+			Console.WriteLine("=========================================");
+
+			Console.Write("Press any key to continue . . . ");
+
+			Console.ReadKey(true);
+
+		}
+
+		}
+
+	}
