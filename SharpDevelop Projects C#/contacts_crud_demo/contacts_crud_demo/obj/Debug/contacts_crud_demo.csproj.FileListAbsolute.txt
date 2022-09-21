@@ -1,0 +1,1 @@
+C:\Users\Administrator\Documents\Programming\SharpDevelop Projects\contacts_crud_demo\contacts_crud_demo\obj\Debug\contacts_crud_demo.csprojResolveAssemblyReference.cache
