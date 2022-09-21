@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\IF ELSE (Grading System)\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Administrator\Desktop\IF ELSE (Grading System)\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Desktop\IF ELSE (Grading System)\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Desktop\IF ELSE (Grading System)\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Desktop\IF ELSE (Grading System)\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

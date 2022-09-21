@@ -1,0 +1,19 @@
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\bin\Debug\Grading System.exe.config
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\bin\Debug\Grading System.exe
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\bin\Debug\Grading System.pdb
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\bin\Debug\Grading System.xml
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\obj\Debug\Grading_System.Resources.resources
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\obj\Debug\Grading System.vbproj.GenerateResource.Cache
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\obj\Debug\Grading System.exe
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\obj\Debug\Grading System.xml
+d:\users\franklin mayad\documents\visual studio 2013\Projects\Grading System\Grading System\obj\Debug\Grading System.pdb
+C:\Users\Administrator\Desktop\Grading System\Grading System\bin\Debug\Grading System.exe.config
+C:\Users\Administrator\Desktop\Grading System\Grading System\obj\Debug\Grading System.exe
+C:\Users\Administrator\Desktop\Grading System\Grading System\obj\Debug\Grading System.xml
+C:\Users\Administrator\Desktop\Grading System\Grading System\obj\Debug\Grading System.pdb
+C:\Users\Administrator\Desktop\Grading System\Grading System\bin\Debug\Grading System.exe
+C:\Users\Administrator\Desktop\Grading System\Grading System\bin\Debug\Grading System.pdb
+C:\Users\Administrator\Desktop\Grading System\Grading System\bin\Debug\Grading System.xml
+C:\Users\Administrator\Desktop\Grading System\Grading System\obj\Debug\Grading System.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Grading System\Grading System\obj\Debug\Grading_System.Resources.resources
+C:\Users\Administrator\Desktop\Grading System\Grading System\obj\Debug\Grading System.vbproj.GenerateResource.Cache
