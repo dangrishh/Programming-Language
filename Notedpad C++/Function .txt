@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+
+void sayHello() {
+	cout << "Hello";
+}
+
+int main()
+
+{	 
+	sayHello(); 
+	return 0;
+}
+
+--------------------------
+
+#include <iostream>
+using namespace std;
+
+int cube(int num){
+  return num*num*num;	
+}
+int main()
+
+{ 	
+	cout << cube(3);	
+	return 0;
+}
+
+---------------------------------------
+
+#include <iostream>
+using namespace std;
+
+float mid(float numOne,float numTwo) {
+	return (numOne + numTwo) / 2;
+}
+
+int main()
+{
+	cout << mid(10,5);
+}
+
+---------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+float mid(float numOne,float numTwo) {
+	return (numOne + numTwo) / 2;
+}
+void sayPapa() {
+	cout << "More";
+}
+
+int DT(int num){
+	return num*num*num*num + num;
+}
+
+int main()
+{
+
+	cout << mid(10,5);
+	system("color 02");
+	cout << endl;
+	sayPapa();
+	cout << endl;
+	cout << DT(3);
+}

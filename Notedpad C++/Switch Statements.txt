@@ -1,0 +1,51 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{ 
+
+    int DT;
+    
+    cout << " Lagay mo ung Favorite mong number 1 to 5: ";
+    cout << endl;
+    
+    cout << " 1 ";
+    cout << endl;
+    cout << " 2 ";
+    cout << endl;
+    cout << " 3 ";
+    cout << endl;
+    cout << " 4 ";
+    cout << endl;
+    cout << " 5 ";
+    cout << endl;
+    
+    cin >> DT;
+     
+    switch(DT){
+    	
+    case 1:
+    	cout << "Hindi kapa naliligo no?";
+    	break;
+    case 2:
+        cout << "Nakaligo kanapala eh";
+        break;
+    case 3:
+        cout << "Pangit kapala!";
+        break;
+    case 4:
+        cout << "Magaling";
+        break;
+    case 5:
+        cout << "Good ka ";
+        break;
+    default:
+    	cout << "dapat sa number lang bumase";
+    	break;
+    }
+    
+}
+
+-----------------------------------------------------------------------

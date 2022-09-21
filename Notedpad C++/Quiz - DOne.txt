@@ -1,0 +1,152 @@
+
+
+
+==========================================================
+
+Answers
+
+1.
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	string DT = " ";
+	
+	cout << " Type moto 'Daniel': ";
+	cin >> DT;
+	
+	cout << endl;
+	cout << "What is your Name?: " << DT;
+
+}
+
+-------------------------------------------------
+
+2.
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    string DT;
+    cout << "Daniel Detorres Religion is?:  ";
+    cin >> DT;
+    
+    if (DT == "MCGI")
+    {
+    	system ("color 02");
+    	cout << endl;
+    	cout << "Result: CORRECT";	
+	}
+	else {
+		
+		system ("color 04");
+		cout << endl;
+		cout << "Result: WRONG";
+		
+	}
+	
+}
+ 
+
+---------------------------------------------------
+
+3.
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    cout << "What is your Name?: Daniel ";
+}
+
+---------------------------------------------------
+
+4. 
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    string DT;
+    cout << "Daniel Detorres Religion is?:  ";
+    cin >> DT;
+    
+    if (DT == "MCGI")
+    {
+    	system ("color 01");
+    	cout << endl;
+    	cout << "Result: CORRECT";	
+	}
+	else {
+		
+		system ("color 04");
+		cout << endl;
+		cout << "Result: WRONG";
+		
+	}
+	
+}
+
+----------------------------------------------------
+
+5.
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	
+	bool Click= true;
+	
+	if(Click) {
+		cout << "LightsON";
+	} else {
+		cout << "LightsOFF";
+	}
+	
+}
+
+-------------------------------------------------
+6.
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int M;
+    int C;
+    int G;
+    int I;
+    int MCGI;
+    
+    cout << "Type your Money: ";
+    cin >> M;
+    
+    cout << "Type your Money: ";
+    cin >> C;
+    
+    cout << "Type your Money: ";
+    cin >> G;
+    
+    cout << "Type your Money: ";
+    cin >> I;
+    
+    MCGI = M + C + G + I;
+     
+    cout << endl;
+    
+    cout << "YourMoneyIs: " << MCGI << " ( " << MCGI << " Only!!!)";
+    
+}
+

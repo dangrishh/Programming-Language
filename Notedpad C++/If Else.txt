@@ -1,0 +1,186 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	string DT;
+	cout << " Ano ang religion mo? ";
+	cin >> DT;
+	
+	if (DT == "MCGI")
+	{
+		cout << "tama ang napili mong religion";
+	}
+	else {
+		cout << "nagkamali ka ng pinasukan mo :)";
+		}
+}
+
+
+----------------------------------------------------------------------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	string sGender;
+	string Daniel;
+	cout << " Pangalan mo naman? ";
+	cin >> sGender;
+	cout << " Pangalan ng kapatid mo? ";
+	cin >> Daniel;
+	
+	
+	if (sGender == "daniel")
+	
+	{
+		cout << endl; 
+		cout << "TYPE YOUR NAME ";
+		cout << endl; 
+		cout << "DANIEL DETORRES";
+	}
+	else  {
+		cout << endl; 
+		cout << "ulitin mo bawal ganyan dapat daniel";
+	}
+	cout << endl; 
+	cout << endl; 
+	if (Daniel == "eywan ko")
+	{
+		cout << endl; 
+		cout << "umulit ka ulit";
+	}
+	else {
+		cout << endl; 
+			cout << "TYPE YOUR SISTER:";
+		cout << endl; 
+		cout << "DANIEL DETORRES";
+	}
+	cout << endl; 
+	cout << endl; 
+	cout << "TAMA BA YAD PARANG KAKAIBA UNG GAWA KO PARANG MALI AHAHAHH?";
+}
+
+
+
+-----------------------------------------------------------------------------------------
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	bool totoo =true;
+
+	cout << "gwapo si brad mayad";
+	
+	if(totoo)
+	{
+		cout << "Correct";	
+	}else{
+		cout<< "Hinde";
+	}
+	
+}
+
+-------------------------------------------------------------------------------
+
+ #include <iostream>
+
+using namespace std;
+
+int main(){
+	
+	char sagot;
+	
+	cout << "sino ang tao na pumatay kay lapu-lapu";
+	cout << endl;
+	cout << endl;
+	
+	
+	cout << "A. Danilo" << endl;
+	cout << "B. Joven" << endl;
+	cout << "C. Magellan" << endl;
+	cout << "D. Daniel" << endl;
+	
+	cout << endl;
+	cout << "Your Answer: ";
+	cin >> sagot;
+	
+	if(sagot == 'A')
+	{
+		system("cls"); 'para hinde sila magkahalo ng questions and sagot
+		system("Color 04"); ' kolor niya.
+		 
+		cout << endl;
+		cout << endl;
+	
+	
+		cout << "Mali, Dahil ang Pumatay kay Lapu-Lapu ay si Magellan" << endl;
+		
+		cout << endl;
+		
+		system("pause"); ' pang pause niya para hindi mabilis mawala.
+		return 0;
+}
+   if(sagot == 'B')
+	{
+		system("cls");
+		system("Color 04"); 
+		
+		cout << endl;
+		cout << endl;
+	
+		cout << "Mali ulit, ano kaba di mo ba kilala pumatay kay lapu lapu?" << endl;
+		
+		cout << endl;
+		
+		system("pause");
+		return 0;
+}
+   if(sagot == 'C')
+	{
+		system("cls");
+		system("Color 08"); 
+		
+		cout << endl;
+		cout << endl;
+	
+		cout << "TAMA!," << endl;
+		
+		cout << endl;
+		
+		system("pause");
+		return 0;
+}
+   if(sagot == 'D')
+	{
+		system("cls");
+		system("Color 04"); 
+		
+		cout << endl;
+		cout << endl;
+	
+		cout << "Mali, Mali," << endl;
+		
+		cout << endl;
+		
+		system("pause");
+		return 0;
+}
+	else // hiwalay ang else sa if huwag gawing (else - if) huwag pag samahin
+	{
+		system("cls");
+		system("Color 04");
+		cout << endl;
+		cout << "CAPSLOCK ANG MGA LETTER!" << endl;
+		cout << endl;
+		
+		return 0;
+	}
+}

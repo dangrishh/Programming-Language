@@ -1,0 +1,143 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	
+	char sagot;
+	
+	cout << "sino ang tao na pumatay kay lapu-lapu";
+	cout << endl;
+	cout << endl;
+	
+	
+	cout << "A. Danilo" << endl;
+	cout << "B. Joven" << endl;
+	cout << "C. Magellan" << endl;
+	cout << "D. Daniel" << endl;
+	
+	cout << endl;
+	cout << "Your Answer: ";
+	cin >> sagot;
+	
+	if(sagot == 'A')
+	{
+		system("cls"); 'para hinde sila magkahalo ng questions and sagot
+		system("Color 04"); ' kolor niya.
+		 
+		cout << endl;
+		cout << endl;
+	
+	
+		cout << "Mali, Dahil ang Pumatay kay Lapu-Lapu ay si Magellan" << endl;
+		
+		cout << endl;
+		
+		system("pause"); ' pang pause niya para hindi mabilis mawala.
+		return 0;
+}
+   if(sagot == 'B')
+	{
+		system("cls");
+		system("Color 04"); 
+		
+		cout << endl;
+		cout << endl;
+	
+		cout << "Mali ulit, ano kaba di mo ba kilala pumatay kay lapu lapu?" << endl;
+		
+		cout << endl;
+		
+		system("pause");
+		return 0;
+}
+   if(sagot == 'C')
+	{
+		system("cls");
+		system("Color 08"); 
+		
+		cout << endl;
+		cout << endl;
+	
+		cout << "TAMA!," << endl;
+		
+		cout << endl;
+		
+		system("pause");
+		return 0;
+}
+   if(sagot == 'D')
+	{
+		system("cls");
+		system("Color 04"); 
+		
+		cout << endl;
+		cout << endl;
+	
+		cout << "Mali, Mali," << endl;
+		
+		cout << endl;
+		
+		system("pause");
+		return 0;
+}
+	else // hiwalay ang else sa if huwag gawing (else - if) huwag pag samahin
+	{
+		system("cls");
+		system("Color 04");
+		cout << endl;
+		cout << "CAPSLOCK ANG MGA LETTER!" << endl;
+		cout << endl;
+		
+		return 0;
+	}
+}
+
+-----------------------------------------------------------------------------------------------------------
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int step1;
+    int step2;              // + addition, - subtraction, * multiplication, / division or % modulus
+    int answer;
+    
+    cout << "TYPE YOUR MONEY: ";
+    cin >> step1;
+    
+    cout << endl;
+    
+    cout << "TYPE YOUR ANOTHER MONEY: ";
+    cin >> step2;
+    
+    cout << endl;
+    
+	answer = step1 + step2;
+    
+    cout << "YOUR ALL MONEY IS: " << answer;
+
+
+---------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+
+  int a = 30;
+  int b = 12;
+  int sum = a + b;
+  
+  cout << sum;
+   
+  return 0;
+}
+
+
+

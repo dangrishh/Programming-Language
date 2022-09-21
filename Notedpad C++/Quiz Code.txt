@@ -1,0 +1,96 @@
+#include <iostream>
+#include <windows.h>
+                           QUIZ CODE
+using namespace std;
+
+
+class Question {
+
+	string question, answer;
+	
+	public:
+		void createQuestion(string aQuestion, string aAnswer) {
+			
+			question = aQuestion;
+			answer = aAnswer;
+		
+		}
+	
+		string getQuestion() {
+			return question;
+			
+		}
+		
+		string getAnswer() {
+			return answer;
+			
+		}
+		
+	};
+
+
+
+int main()
+
+{
+	int counter;
+	
+	cout << "How Many Question: ";
+	cin >> counter;
+	cin.ignore();
+	
+	Question questions[counter];
+	
+	for(int i = 0; i < counter; i++) {
+		
+		string question, answer;
+		cout << "Question #" << i <<": ";
+		getline(cin,question);
+		
+		cout << "Answer #" << i << ": ";
+		getline(cin,answer);
+		
+		questions[i].createQuestion(question,answer);
+		
+		cout << endl;
+		
+	}
+	
+	system("cls");
+	
+	string answers[counter];
+	
+	for(int i = 0; i < counter; i++) {
+		
+		cout << questions[i].getQuestion() << endl;
+		cout << "Answer: ";
+		getline(cin,answers[i]);
+		
+		cout << endl << endl;
+		
+	}
+	
+	system("cls");
+	
+	int correct = 0;
+	
+	for(int i = 0; i < counter; i++) {
+	
+		cout << questions[i].getQuestion() << endl;
+		cout << "Correct Answer: " << questions[i].getAnswer() << endl;
+		cout << "Your Answer" << answers[i] << endl;
+		
+		if(questions[i].getAnswer() == answers[i]) {
+			cout << "CORRECT!";
+			correct++;
+		}else cout << "INCORRECT";
+		
+	}
+			
+		cout << endl << endl;
+		cout << "Final Score: " << correct << "/" << counter;
+		
+		return 0;
+
+} 
+

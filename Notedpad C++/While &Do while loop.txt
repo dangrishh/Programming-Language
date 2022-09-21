@@ -1,0 +1,98 @@
+ #include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int i = 0;
+	
+	while (i < 5 ) {    // ipapabilang lang sayo
+		i++;         yung i to 5.
+		cout << i;
+		
+	}
+	
+}
+----------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int i = 5;
+    
+    while(i < 6) {
+    	cout << "Kamusta kana";
+	}
+	
+	cout << "\n\n";
+	
+	int x = 6;
+	
+	do{
+	cout << "Kamusta kana.";
+	} while(x < 5 );
+	
+	
+}
+----------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int i = 6;
+    
+    while(i < 5) {
+    	cout << "Kamusta kana";
+	}
+	
+	cout << "\n\n";
+	
+	int x = 6;
+	
+	do{
+	cout << "Kamusta kana.";
+	} while(x < 5 );
+	
+	
+}
+
+------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int DT = 5;
+	string answer;
+	
+	while(DT != 0) {
+		
+		cout << " san mo kukunin ung mangga" << endl;
+		cout << "Answer: ";
+		cin >> answer;
+		
+		if(answer == "puno") {
+		cout << "tumama ka!" << endl;
+		break;
+		
+		}else{
+			DT--;        // dito un hanggang san mo
+		}                patitigilin si while sa kanyang pagloop.
+		
+		if(DT == 0) {
+			cout << "nagkamali ka :< " << endl;
+		}
+	}
+	
+}
+
+-------------------------------------------------------------------------
+

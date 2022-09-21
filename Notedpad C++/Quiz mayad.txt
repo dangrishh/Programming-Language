@@ -1,0 +1,112 @@
+quiz
+
+1. String syntax? String DT / String DT = "";
+2. Integer syntax? int DT = 0;
+3. Boolean syntax? bool DT = true;
+                   bool DT = False;
+4. Character syntax? char DT = 'A';
+5. Syntax of IF ELSE? if ( DT == "MCGI" )
+                      Else {_______}
+7. Syntax of Print? Ito ung output ng ng Code po Like // Print Hellow Word 
+8. Syntax of Input? ito ung Iinput mo siya ng Hello Word tas magpprint o output nalang siya 
+
+9. Print Hello World
+
+10. Input Helloww World
+
+
+------------------
+
+Code:
+
+1. Input and Output Code Challenge
+
+Input
+
+cout <<
+cin >>
+
+Output
+
+What is your Name?: Daniel
+
+2. If Else Code Challenge
+
+Output
+
+Daniel Detorres Religion is?: MCGI
+
+Result: CORRECT (color blue all text)
+
+Daniel Detorres Religion is?: Ggwp
+
+Result: WRONG (color red all text)
+
+system ("cls");
+system ("color 07");
+
+----------------
+
+
+
+Code:
+
+3 Input and Output Code Challenge
+
+Input
+
+cout <<
+
+
+Output
+
+What is your Name?: Daniel
+
+4. If Else Code Challenge
+
+input
+
+cout <<
+cin >>
+
+if()
+{
+cout <<" Result: ";
+}
+
+
+Output
+
+Daniel Detorres Religion is?: MCGI
+
+Result: CORRECT (color blue all text) *Gumamit ng CLS
+
+Daniel Detorres Religion is?: Ggwp
+
+Result: WRONG (color red all text) *Gumamit ng CLS
+
+
+----------------- 
+
+5. Boolean Code Challenge
+
+True
+
+Print "LightsON"
+
+False
+
+Print "LightsOFF
+
+
+----------------
+
+
+6.. Arithmetic Calculator
+
+Type your Money:
+Type your Money:
+Type your Money:
+Type your Money:
+
+YourMoneyIs: 300 (300 Only!!!)

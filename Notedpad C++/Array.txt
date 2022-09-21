@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	string DT[3] = {"T","A","E"};
+	
+	cout << DT[0];
+	
+	}
+
+--------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    string DT[] = {" Yellow "," Blue "," Orange ","Green"};
+    
+	cout << DT[3];
+}
+
+
+-------------------------------------------------------------------------
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	string phones[] = {"Apple","Samsung","Vivo","Oppo","Asus","MyPhones"};
+	int D = sizeof(phones) / sizeof(phones[0]);
+	cout << D;  // ganto kumuha ng sizeof array kung gano kalaki at haba ng array
+}
+
+
+--------------------------------
+
+
+
+
+
+
+

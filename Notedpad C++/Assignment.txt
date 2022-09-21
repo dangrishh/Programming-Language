@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	string phones[] = {"Apple","Samsung","Vivo","Oppo","Asus","MyPhones"};
+	int D = sizeof(phones) / sizeof(phones[0]);
+
+
+	for(int DT = 0; DT <= D; DT++){
+		                            // ibig sabihin eendl; niya ung array mo na maglloop siya hanngang sa matapos.
+		cout << phones[DT] << endl;
+	}
+	
+}
+
+-------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	for(int DT = 0; DT <= 10; DT++){
+		cout << DT;
+}
+	
+}
+-------------------------------------------------
+
+
+ass.
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	string phones[] = {"Apple","Samsung","Vivo","Oppo","Asus","MyPhones"};
+	int len = sizeof(phones) / sizeof(phones[0]);
+	
+	for(int i = 0; i <= len; i++){
+	// ibig sabihin eendl; niya ung array mo na maglloop siya hanngang sa matapos.
+	cout << phones[i] << endl;
+	cout << "\n----------\n";
+	cout << "\nTotal: " << len;
+}
+	
+	return 0;
+
+}
+
+-------------------------------------------------------
+#include <iostream>
+using namespace std;
+int main() {
+    string str[10] = {"Apple","Samsung","Vivo","Oppo","Asus","MyPhone"};
+    size_t count = 0;
+    for (size_t i = 0; i < sizeof(str)/sizeof(*str); i++)
+        if (str[i] != "")
+            count++;
+    cout << str[0] <<"\n" << str[1] <<"\n" << str[2] <<"\n" << str[3] <<"\n" << str[4] <<"\n" << str[5] <<"\n";
+	cout << "------------\n";
+    cout << "Total: " << count << endl;
+    return 0;
+}
+

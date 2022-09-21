@@ -1,0 +1,92 @@
+CIN 
+
+
+#include<iostream>
+using namespace std;
+                                            // using this variables/Data types you can easy change name
+int main()
+{
+	
+	string a = "mayad";
+	string b = "jalmasco";
+	string c = "jareth";
+	string d = "ziljian";
+	
+	cout << " Si " << d << " ay sobrang gwapo talaga " << endl;
+	
+	
+	 
+	return 0;
+	
+}
+
+----------------------------------------------------------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	string DT;
+	cout << " Ano ang religion mo? ";
+	cin >> DT;
+	
+	if (DT == "MCGI")
+	{
+		cout << "tama ang napili mong religion";
+	}
+	else {
+		cout << "nagkamali ka ng pinasukan mo :)";
+		}
+}
+
+
+----------------------------------------------------------------------
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	string sGender;
+	string Daniel;
+	cout << " Pangalan mo naman? ";
+	cin >> sGender;
+	cout << " Pangalan ng kapatid mo? ";
+	cin >> Daniel;
+	
+	
+	if (sGender == "daniel")
+	
+	{
+		cout << endl; 
+		cout << "TYPE YOUR NAME ";
+		cout << endl; 
+		cout << "DANIEL DETORRES";
+	}
+	else  {
+		cout << endl; 
+		cout << "ulitin mo bawal ganyan dapat daniel";
+	}
+	cout << endl; 
+	cout << endl; 
+	if (Daniel == "eywan ko")
+	{
+		cout << endl; 
+		cout << "umulit ka ulit";
+	}
+	else {
+		cout << endl; 
+			cout << "TYPE YOUR SISTER:";
+		cout << endl; 
+		cout << "DANIEL DETORRES";
+	}
+	cout << endl; 
+	cout << endl; 
+	cout << "TAMA BA YAD PARANG KAKAIBA UNG GAWA KO PARANG MALI AHAHAHH?";
+}
+

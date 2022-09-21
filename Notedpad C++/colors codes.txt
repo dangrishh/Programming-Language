@@ -1,0 +1,2 @@
+system ("cls");
+system ("color 07");
